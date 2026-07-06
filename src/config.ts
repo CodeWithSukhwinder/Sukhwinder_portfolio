@@ -1,193 +1,136 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Sukhwinder",
+        fullName: "Sukhwinder Pal",
+        title: "React Native Developer",
+        description: "React Native Developer with 2+ years of professional experience building production-grade Android and iOS applications. Passionate about creating scalable, user-friendly mobile experiences using React Native, TypeScript, Redux Toolkit, and modern development practices."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "CodeWithSukhwinder",
+        email: "sukhwinderpal0702@gmail.com",
+        location: "Punjab, India",
+        phone: "+91 7973225982"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I am a React Native Developer with over 2 years of professional experience in developing scalable cross-platform mobile applications. I have worked on production applications involving Authentication, Real-time Chat, WebRTC Audio & Video Calling, AI Features, Push Notifications, In-App Purchases, Payment Integration, Google Maps, Image Upload, REST APIs, Socket.IO, Firebase, Redux Toolkit, MMKV, and AsyncStorage. I enjoy solving complex problems, writing clean scalable code, optimizing application performance, and collaborating with cross-functional teams to build high-quality mobile products."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "React Native Developer",
+            company: "Meander Software Pvt Ltd",
+            period: "January 2024 — Present",
+            location: "Punjab, India",
+            description: "Developed production-grade Android and iOS applications with scalable React Native architectures, integrated REST APIs, and implemented robust features.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Developed production-grade Android and iOS applications",
+                "Built scalable React Native architectures",
+                "Integrated REST APIs and implemented authentication",
+                "Built AI-powered features and real-time chat",
+                "Implemented WebRTC audio/video calling",
+                "Integrated Stripe payments, Google Play Billing, and Apple StoreKit",
+                "Worked with Firebase and Redux Toolkit",
+                "Optimized performance and published apps on Play Store and App Store",
+                "Collaborated with backend, QA and UI teams"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["React Native", "TypeScript", "Redux Toolkit", "WebRTC", "Firebase", "Stripe", "StoreKit"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            position: "React Native Intern",
+            company: "Meander Software Pvt Ltd",
+            period: "September 2023 — December 2023",
+            location: "Punjab, India",
+            description: "Built reusable UI components, integrated APIs, and collaborated with senior developers on production features.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Built reusable UI components",
+                "Integrated APIs",
+                "Worked with Redux Toolkit",
+                "Firebase integration",
+                "Fixed bugs and developed production features",
+                "Collaborated with senior developers"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
-        },
-        {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
-            responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
-            ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["React Native", "JavaScript", "Redux", "Firebase", "APIs"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
+            title: "Loosid",
+            category: "Sober Dating Platform",
+            technologies: "React Native, TypeScript, Redux Toolkit, Firebase, Stripe, Stream Chat",
+            image: "/images/loosid.png",
+            description: "Sober Dating Platform featuring authentication, subscriptions, real-time chat, image upload, Apple Sign In, and Google Sign In."
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
+            title: "Radar",
+            category: "Content Discovery",
+            technologies: "React Native, Offline First, MMKV Storage, Search",
+            image: "/images/radar.png",
+            description: "Personalized Content Discovery Platform featuring offline-first capabilities, bookmarks, FlatList optimization, and a personalized feed."
         },
         {
             id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
+            title: "FoodJojo",
+            category: "AI / Nutrition",
+            technologies: "React Native, AI APIs, Camera Integration",
+            image: "/images/foodjojo.png",
+            description: "AI Meal Analysis & Nutrition Tracking app featuring meal recognition, AI integration, camera features, and premium subscriptions."
         },
         {
             id: 4,
-            title: "GameKroy",
-            category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
+            title: "GPS Painting Tools",
+            category: "E-Commerce",
+            technologies: "React Native, Stripe, Shopping Cart",
+            image: "/images/gps-painting.png",
+            description: "Cross-platform E-Commerce Mobile App featuring a shopping cart, checkout system, Stripe payments, wishlist, and order tracking."
         },
         {
             id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
+            title: "JustSkipLine",
+            category: "Delivery / Shopping",
+            technologies: "React Native, Android, iOS",
+            image: "/images/justskipline.png",
+            description: "Grocery Pickup Platform currently live on the Play Store & App Store."
         },
         {
             id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
+            title: "SignB",
+            category: "Utility / Interpreter",
+            technologies: "React Native, Real-time APIs",
+            image: "/images/signb.png",
+            description: "Real-time Speech to Sign Language Interpreter."
         },
         {
             id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
+            title: "SaberGo",
+            category: "E-Learning",
+            technologies: "React Native, Mobile App",
+            image: "/images/sabergo.png",
+            description: "E-Learning Platform live on the Google Play Store."
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "sukhwinderpal0702@gmail.com",
+        github: "https://github.com/CodeWithSukhwinder",
+        linkedin: "https://www.linkedin.com/in/sukhwinder-pal-74263a335",
+        twitter: "",
+        facebook: "",
+        instagram: "https://www.instagram.com/imxsukhh",
+        phone: "+91 7973225982"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "MOBILE APP DEVELOPER",
+            description: "Building scalable cross-platform mobile apps",
+            details: "Developing production-grade iOS and Android applications using React Native. Specializing in UI/UX implementation, API integration, Redux state management, Real-time services, and publishing to app stores.",
+            tools: ["React Native", "TypeScript", "Redux Toolkit", "React Navigation", "MMKV", "Firebase", "WebRTC", "Socket.IO", "Stripe"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "BACKEND & TOOLS",
+            description: "Integrating APIs and managing data",
+            details: "Proficient in interacting with RESTful APIs, Websockets, managing local offline-first databases, and utilizing modern backend services and version control tools.",
+            tools: ["Node.js", "Fastify", "REST APIs", "Git", "GitHub", "MongoDB", "MySQL", "Postman", "Xcode", "Android Studio"]
         }
     }
 };
-
-

@@ -1,14 +1,6 @@
-# 🚀 3D Developer Portfolio Website (React + TypeScript + Three.js)
+# Sukhwinder Pal - React Native Developer Portfolio
 
-[![3D portfolio preview (click to watch video)](./Screenshot_2026-04-08_22-10-00.png)](./screen-capture%20(13).webm)
-
-A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
-
-If you’re a developer looking for a **portfolio template** that feels premium, interactive, and memorable—this repo is for you.
-
-> Live preview: https://www.redoyanulhaque.me/
-
----
+A modern, high-performance 3D developer portfolio website built with React, TypeScript, Three.js, GSAP, and WebGL.
 
 ## ✨ Highlights
 
@@ -16,33 +8,29 @@ If you’re a developer looking for a **portfolio template** that feels premium,
 - Smooth animations with **GSAP**
 - Modern **React + TypeScript** codebase
 - Fast, responsive UI (desktop + mobile)
-- Designed for developers, engineers, programmers, and creators
-
----
+- Showcases mobile applications, React Native architectures, and production-grade features.
 
 ## 🧰 Tech Stack
 
-- **React**
+- **React / React Native**
 - **TypeScript**
 - **Three.js / WebGL**
 - **GSAP**
 - **HTML / CSS / JavaScript**
-
----
 
 ## 🚀 Getting Started
 
 ### 1) Clone
 
 ```bash
-git clone https://github.com/red1-for-hek/portfolio-website.git
+git clone https://github.com/CodeWithSukhwinder/portfolio-website.git
 cd portfolio-website
 ```
 
 ### 2) Install
 
 ```bash
-npm install
+npm install --legacy-peer-deps
 ```
 
 ### 3) Run locally
@@ -57,42 +45,9 @@ npm run dev
 npm run build
 ```
 
----
-
-## 🧩 Customize (Quick Guide)
-
-Typical things you’ll want to update:
-
-- **Your name + hero section text**
-- **Projects list**
-- **Social links** (GitHub, LinkedIn, email)
-- **SEO meta title/description**
-
----
-
-## ⭐ Support
-
-If you found this useful:
-
-- Please **star** the repository (it helps a lot)
-- Share it with a friend who needs a portfolio template
-- Sponsor via the **Sponsor** button on GitHub (if available in your region)
-
----
-
 ## 🤝 Connect
 
-- LinkedIn: https://www.linkedin.com/in/red1-for-hek/
-
----
-
-## 🏷️ Recommended GitHub Topics (add in repo settings)
-
-Add these topics to improve GitHub search visibility:
-
-`portfolio` `developer-portfolio` `portfolio-website` `portfolio-template` `3d-portfolio` `react` `typescript` `threejs` `webgl` `gsap` `frontend` `vite`
-
----
+- LinkedIn: https://www.linkedin.com/in/sukhwinder-pal-74263a335
 
 ## 🪪 License
 
