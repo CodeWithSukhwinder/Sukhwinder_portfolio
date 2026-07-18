@@ -30,7 +30,7 @@
   font-weight: 600;
   cursor: pointer;
 }
-.navbar-connect {
+.navbar-connect-container {
   position: absolute;
   display: none;
   left: 50%;
@@ -39,6 +39,18 @@
   font-size: 13px;
   letter-spacing: 0.8px;
   font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.navbar-connect {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+.navbar-separator {
+  color: #666;
+  font-weight: 300;
 }
 .navbar-title {
   font-weight: 700;
@@ -62,8 +74,8 @@
   }
 }
 @media only screen and (min-width: 900px) {
-  .navbar-connect {
-    display: block;
+  .navbar-connect-container {
+    display: flex;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -74,7 +86,7 @@
     column-gap: 80px;
     font-size: 16px;
   }
-  .navbar-connect {
+  .navbar-connect-container {
     font-size: 16px;
   }
   .navbar-title {
