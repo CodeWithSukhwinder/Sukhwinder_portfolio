@@ -3,6 +3,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import Lenis from "lenis";
+import { config } from "../config";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -69,13 +70,23 @@ const Navbar = () => {
         <a href="/#" className="navbar-title" data-cursor="disable">
           SP
         </a>
-        <a
-          href="mailto:sukhwinderpal0702@gmail.com"
-          className="navbar-connect"
-          data-cursor="disable"
-        >
-          sukhwinderpal0702@gmail.com
-        </a>
+        <div className="navbar-connect-container">
+          <a
+            href={`mailto:${config.contact.email}`}
+            className="navbar-connect"
+            data-cursor="disable"
+          >
+            {config.contact.email}
+          </a>
+          <span className="navbar-separator"> | </span>
+          <a
+            href={`tel:${config.contact.phone.replace(/\s+/g, '')}`}
+            className="navbar-connect"
+            data-cursor="disable"
+          >
+            {config.contact.phone}
+          </a>
+        </div>
         <ul>
           <li>
             <a data-href="#about" href="#about">
