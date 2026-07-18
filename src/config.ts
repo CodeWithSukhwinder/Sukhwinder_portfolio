@@ -19,7 +19,7 @@ export const config = {
         {
             position: "React Native Developer",
             company: "Meander Software Pvt Ltd",
-            period: "January 2024 — Present",
+            period: "January 2024 to Present",
             location: "Punjab, India",
             description: "Developed production-grade Android and iOS applications with scalable React Native architectures, integrated REST APIs, and implemented robust features.",
             responsibilities: [
